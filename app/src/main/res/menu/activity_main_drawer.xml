@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_all_records"
+                android:icon="@drawable/ic_all_inbox"
+                android:title="@string/all_records"/>
+        <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_search"
+                android:title="@string/find_abitur"/>
+        <item
+                android:id="@+id/nav_new_record"
+                android:icon="@drawable/ic_add"
+                android:title="@string/new_record"/>
+    </group>
+
+    <item android:title="@string/help">
+        <menu>
+            <item
+                    android:id="@+id/nav_contact_iren"
+                    android:icon="@drawable/ic_fire"
+                    android:title="@string/contact_iren"/>
+            <item
+                    android:id="@+id/nav_call_iren"
+                    android:icon="@drawable/ic_call_red"
+                    android:title="@string/call_iren"/>
+            <item
+                    android:id="@+id/nav_contact_mkrooted"
+                    android:icon="@drawable/ic_happy"
+                    android:title="@string/contact_mkrooted"/>
+            <item
+                    android:id="@+id/nav_call_mkrooted"
+                    android:icon="@drawable/ic_call_black"
+                    android:title="@string/call_mkrooted"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Priyomka IPT 2019</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="all_records">Усі нові ФТІшники</string>
+    <string name="new_record">Новий ФТІшник</string>
+    <string name="contact_iren">Написати ІЮ</string>
+    <string name="help">Хєлп</string>
+    <string name="find_abitur">Знайти абітурьонка</string>
+    <string name="call_iren">Зателефонувати ІЮ</string>
+    <string name="contact_mkrooted">Написати творцю</string>
+    <string name="call_mkrooted">Зателефонувати творцю</string>
+    <string name="iren_phone">tel:+380939174015</string>
+    <string name="mkrooted_phone">tel:+380504181364</string>
+    <string name="mkrooted_tg">mkrooted</string>
+    <string name="iren_tg">spider_aka_landline</string>
+    <plurals name="abit">
+        <item quantity="one">новий фтішник</item>
+        <item quantity="other">нові фтішники</item>
+    </plurals>
 </resources>
